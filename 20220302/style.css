@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+table{
+    width:60%;
+    margin:auto;
+    font-size:1.5em; /*px,em,rem */
+}
+td{
+    border-bottom:1px solid blue;
+}
+img{
+    padding:0px;
+    width:350px;
+    position:fixed;
+    bottom:0;
+    right:0;
+   }
