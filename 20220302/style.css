@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    background-image:url(bg8.png);
+    background-size:auto;
 }
 table{
     width:60%;
@@ -9,10 +11,12 @@ table{
 td{
     border-bottom:1px solid blue;
 }
-img{
+
+/*img{
     padding:0px;
-    width:350px;
+    width:300px;
     position:fixed;
     bottom:0;
     right:0;
    }
+   */
