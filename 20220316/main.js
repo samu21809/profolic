@@ -135,8 +135,9 @@ $(document).on("keydown",function(event){
                 $("h2").text(a+"/3"); 
                  a++;
                  if(a==4){
+                     $("h1").text("Propose to the princess!")
                      a=3;
-                    alert('你可以解救公主了!');
+                    alert('你可以娶公主了!');
                     setTimeout(1000);
                     b=0;
                 }
@@ -166,7 +167,7 @@ $(document).on("keydown",function(event){
                     $("#talkBox").text("哈囉");
                     break;
                 case 5:
-                    alert('You save the princess!');
+                    alert('You got married!');
                    $("img").attr("src",`yes/after.png`).attr("width","500px").attr("right","10%");
                     setTimeout('refresh()',3000);
                     break;
