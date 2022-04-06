@@ -1,7 +1,7 @@
 body{
 text-align:center;
 color:yellow;
-background-color: cadetblue;
+background-color:darkcyan ;
 }
 h2{
 height:32px;
@@ -12,9 +12,24 @@ text-align: left;
 }
 img{
 border:black ;
-padding:10px;
 width:250px;
 position:fixed;
-top:18%;
+top:12%;
 left:3%;
+}
+img:hover {
+    box-shadow: 5px 4px 2px black;
+  }
+  div{
+    width:230px;
+    padding:10px;
+   border: 10px yellow;
+    position: fixed;
+    top:60%;
+    left:4%;
+    font-size: 17px;
+}
+input{
+    padding:8px;
+    width:80px;
 }

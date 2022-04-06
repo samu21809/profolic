@@ -12,7 +12,6 @@ controls:0,
 start:playTime[currentPlay][0],
 end:playTime[currentPlay][1],
 iv_load_policy:3
-
 },
 events:{
     onReady:onPlayerReady,

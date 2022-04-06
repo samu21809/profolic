@@ -1,17 +1,58 @@
 body{
 text-align:center;
+background-color: lightslategray;
 }
 canvas{
-    border: 2px solid black;
-    background-image: url(images/grasses68.gif);
+    border: 2px solid white;
+    background-image: url(images/ground.jpg);
 }
 #talkBox{
     height: 35px;
+    width:180px;
     font-size:26px;
     font-weight:bold;
-    position:relative;
-    top:10px;
-    background-color:bisque;
-    color:brown;
-
+    position:fixed;
+    top:80px;
+    left:7%;
+    background-color:white;
+    color:darkslateblue;
+}
+h1{
+    color:white;
+}
+.button{
+    position: fixed;
+    top:40%;
+    left:9%;
+    background-color:lightpink;
+   font-size: 25px;
+   padding:10px;
+   font-family:Impact ;
+   display: inline-block;
+   border:none;
+   box-shadow: 0 7px #999;
+}
+.button:active {
+    background-color:lightcoral;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+  }
+  h2{
+    position: fixed;
+    top:24%;
+    left:15%;
+}
+img{
+    position: fixed;
+    top:25%;
+    left:11%;
+}
+.intro{
+    position:fixed;
+    right:3%;
+    top:30%;
+    padding:3px;
+    font-size:16px;
+    margin:8px;
+    border:10px solid white;
 }

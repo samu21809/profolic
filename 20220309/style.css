@@ -1,4 +1,11 @@
 body{
     text-align:center;
-    background:linear-gradient(45deg,pink 50%,white 50%)
+    background:linear-gradient(55deg,pink 50%,white 50%)
 };
+img{
+    padding:30px;
+    width:350px;
+    position:fixed;
+    top:30%;
+    left:80%;
+   }
