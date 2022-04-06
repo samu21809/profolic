@@ -37,14 +37,14 @@ h1{
     box-shadow: 0 4px #666;
     transform: translateY(4px);
   }
-  h2{
+h2{
     position: fixed;
     top:24%;
     left:15%;
 }
 img{
     position: fixed;
-    top:25%;
+    top:23%;
     left:11%;
 }
 .intro{

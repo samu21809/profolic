@@ -25,7 +25,7 @@ $(function(){
     ctx = $("#myCanvas")[0].getContext("2d");
 
     imgMain = new Image();
-    imgMain.src = "images/spriteSheet.png";
+    imgMain.src = "yes/spriteSheet.png";
     currentImgMain ={
         "x":0,
         "y":0
@@ -34,15 +34,15 @@ $(function(){
         ctx.drawImage(imgMain,0,0,80,120,currentImgMain.x,currentImgMain.y,gridLength,gridLength);
     }
     imgMountain = new Image();
-    imgMountain.src = "images/mountains3.jpg"
+    imgMountain.src = "yes/mountains3.jpg"
     imgEnemy = new Image();
-    imgEnemy.src = "images/Enemy.png";
+    imgEnemy.src = "yes/Enemy.png";
     imgKing = new Image();
-    imgKing.src = "images/king.png";
+    imgKing.src = "yes/king.png";
     imgSave = new Image();
-    imgSave.src = "images/bitch.png";
+    imgSave.src = "yes/bitch.png";
     imgAfter = new Image();
-    imgAfter.src = "images/after.png";
+    imgAfter.src = "yes/after.png";
     imgMountain.onload = function(){
         imgEnemy.onload = function(){
             imgKing.onload = function(){
@@ -167,7 +167,7 @@ $(document).on("keydown",function(event){
                     break;
                 case 5:
                     alert('You save the princess!');
-                   $("img").attr("src",`images/after.png`).attr("width","500px").attr("right","10%");
+                   $("img").attr("src",`yes/after.png`).attr("width","500px").attr("right","10%");
                     setTimeout('refresh()',3000);
                     break;
    }

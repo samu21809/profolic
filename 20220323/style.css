@@ -6,9 +6,13 @@ background-color:darkcyan ;
 h2{
 height:32px;
 font-size: medium;
+color:yellow;
 }
-li{
-text-align: left;
+h1{
+  position: absolute;
+  top:25%;
+  right:35%;
+  color:yellow;
 }
 img{
 border:black ;
@@ -19,15 +23,16 @@ left:3%;
 }
 img:hover {
     box-shadow: 5px 4px 2px black;
-  }
-  div{
+}
+#cys{
     width:230px;
     padding:10px;
-   border: 10px yellow;
+    border: 10px yellow;
     position: fixed;
     top:60%;
     left:4%;
     font-size: 17px;
+    color:yellow;
 }
 input{
     padding:8px;

@@ -1,17 +1,17 @@
 body{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     }
-li{ 
-       text-align: left;
-       font-size: 30px;
-       padding: 15px;
-    }
+#choices{
+text-align: left;
+font-size: 30px;
+padding:15px;
+}
 img{
         border:black;
         padding:10px;
         width:350px;
-        position:fixed;
-        top:30%;
+        position:absolute;
+        top:50%;
         left:36%;
        }
