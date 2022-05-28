@@ -1,0 +1,19 @@
+svg{
+    border: 1px solid #ccc;
+}
+.axis .domain{
+    stroke:none;
+}
+.x line{
+    stroke:white;
+}
+.bar-chart-container{
+    position:absolute;
+    right:35%;
+    top:10%;
+}
+#abc{
+    position:absolute;
+        bottom:3%;
+        right:3%;
+}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Club_Courses</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="20220511/style.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html#work"><strong>上一頁</strong><span class="sr-only">(current)</span></a>
+        </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main role="main">
+        <div class="container marketing">
+            <br><br>
+        <body>
+        </div>
+        <h1>Galaxy Tour</h1>
+        <div id="app">
+             <h2 :class="h2ClassController">{{productName}}</h2>
+             <p :style="pstyleController">{{productdsp}}</p>
+             <table v-for="(productClass,index) in productClasses" :key="index" width="100%">
+                 <tr>
+                     <td width="20%">{{productClass.name}}</td>
+                     <td width="20%">US${{productClass.price.toLocaleString('en-US')}}</td>
+                     <td>
+                         <button style="width:35%" v-if="productClass.earlyBird">Book Earlybird!</button>
+                         <button style="width:35%" v-else>Book</button>&nbsp;
+                         <span v-show="productClass.seatsAvailable < 10" style="color:red">
+                         <em>Almost Sold out!</em>
+                         </span>
+                     </tr>
+             </table>
+         <img :src="imageSrc[Math.floor(Math.random()*imageSrc.length)]"
+              :style="imageStyleController"        
+              :alt="imageAlt" :title="imageAlt">
+ </div>
+         <script src="https://unpkg.com/vue@next"></script>
+         <script src="20220511/main.js"></script>
+        <!-- /.container -->
+        <!-- FOOTER -->
+        <footer class="container">
+            <br><br><br><br><br>
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+        </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+
+  </body>
+</html>
