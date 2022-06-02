@@ -1,0 +1,23 @@
+svg{
+    border: 1px solid #ccc;
+ }
+ 
+.axis .domain{
+    stroke:#bbb;
+ }
+
+.axis .tick line{
+    stroke: #bbb;
+    stroke-width: 0.5;
+    stroke-dasharray: 4,2;
+}
+.line-chart-container{
+    position:absolute;
+    right:33%;
+    top:15%;
+}
+#abc{
+    position:absolute;
+        bottom:3%;
+        right:3%;
+}

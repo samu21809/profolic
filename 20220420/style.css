@@ -1,0 +1,32 @@
+body{
+    background-color:lightcyan;
+}
+#abc{
+    position:absolute;
+        bottom:3%;
+        right:3%;
+}
+svg.first{
+    border: 1px solid #ccc;
+    position:absolute;
+    left:3%;
+    top:30%;
+}
+h1{
+    position:absolute;
+    left:5%;
+    top:15%;
+}
+svg.second{
+    border: 1px solid #ccc;
+    position:absolute;
+    left:35%;
+    top:30%;
+}
+
+svg.third{
+    border: 1px solid #ccc;
+    position:absolute;
+    left:67%;
+    top:30%;
+}
