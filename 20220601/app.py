@@ -4,11 +4,12 @@ import numpy as np
  
 from flask import Flask, request, render_template
 app = Flask(__name__)
-
+ 
 @app.route("/")
 def formPage():
     return render_template('form.html')
     
+
 @app.route("/submit", methods=['POST'])
 def submit():
     if request.method == 'POST':

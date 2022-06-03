@@ -4,13 +4,14 @@ color:yellow;
 background-color:darkcyan ;
 }
 h2{
-height:32px;
+height:40px;
 font-size: medium;
 color:yellow;
+top:30%;
 }
 h1{
   position: absolute;
-  top:25%;
+  top:10%;
   right:35%;
   color:yellow;
 }
